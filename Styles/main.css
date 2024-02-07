@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+*:focus {
+  outline: 2px dashed #2959ce;
+  outline-offset: 3px;
+}
+
 html {
   height: 100%;
   scroll-behavior: smooth;
@@ -111,6 +116,21 @@ img {
 
 .currency-rates-value {
   color: #555555;
+}
+
+/* GLOBAL-SEARCH-FORM */
+
+.global-search-form {
+  margin-right: 25px;
+}
+
+.global-search-form-input {
+  padding: 15px 20px 13px 41px;
+  border: none;
+  border-radius: 60px;
+  font-size: 14px;
+  line-height: auto;
+  width: 275px;
 }
 
 /* LANG-TOGGLE */
